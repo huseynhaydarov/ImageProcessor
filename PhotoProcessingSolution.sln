@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Messages", "Shared.Messages\Shared.Messages.csproj", "{5FBF4A50-0191-4A3A-AAEC-DFFD2B093653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadService", "UploadService\UploadService.csproj", "{0A266B2A-D323-47FA-9975-F3DCCB09312D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingService", "ProcessingService\ProcessingService.csproj", "{0FCF8E91-63C3-4B61-AD29-C64E39929500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FBF4A50-0191-4A3A-AAEC-DFFD2B093653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FBF4A50-0191-4A3A-AAEC-DFFD2B093653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FBF4A50-0191-4A3A-AAEC-DFFD2B093653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FBF4A50-0191-4A3A-AAEC-DFFD2B093653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A266B2A-D323-47FA-9975-F3DCCB09312D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A266B2A-D323-47FA-9975-F3DCCB09312D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A266B2A-D323-47FA-9975-F3DCCB09312D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A266B2A-D323-47FA-9975-F3DCCB09312D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCF8E91-63C3-4B61-AD29-C64E39929500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCF8E91-63C3-4B61-AD29-C64E39929500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCF8E91-63C3-4B61-AD29-C64E39929500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCF8E91-63C3-4B61-AD29-C64E39929500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
