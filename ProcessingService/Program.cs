@@ -28,12 +28,7 @@ var builder = Host.CreateDefaultBuilder(args)
                     e.ConfigureConsumer<PhotoUploadedConsumer>(context);
                 });
             });
-        });
-        
-        services.AddHostedService<MassTransitHostedService>();
-        
-        services.AddHostedService<Worker>();
+        });        
+       
     });
 
-var host = builder.Build();
-await host.RunAsync();
