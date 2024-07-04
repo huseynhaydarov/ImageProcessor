@@ -1,0 +1,1 @@
+MassTransit sample using RabbitMQ
